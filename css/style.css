@@ -41,16 +41,9 @@ main{
     align-items: center;
     justify-content: center;
 
+    width: 100%;
+
 }
-
-/* hr{
-
-    position: relative;
-    width:350px;
-
-
-    top: -3rem;
-} */
 
 
 h1{
@@ -79,6 +72,8 @@ span{
 
     color: var(--D_grayish_blue);
 }
+
+
 
 
 
@@ -172,3 +167,5 @@ span{
 }
 
 
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
