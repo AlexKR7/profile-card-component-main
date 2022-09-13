@@ -73,6 +73,14 @@ span{
     color: var(--D_grayish_blue);
 }
 
+footer{
+
+
+    bottom: 0;
+    position:absolute;
+    width: 100%;
+}
+
 
 
 
