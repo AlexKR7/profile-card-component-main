@@ -1,0 +1,174 @@
+:root{
+
+/*---------Colors---------*/
+
+--Dark_cyan: hsl(185, 75%, 39%);
+--VD_desaturated_blue: hsl(229, 23%, 23%);
+--D_grayish_blue: hsl(227, 10%, 46%);
+
+
+/*--------Neutral----------*/
+--Dark_gray: hsl(0, 0%, 59%);
+
+
+/*-------Font-------------*/
+
+font-family: 'Kumbh Sans', sans-serif;
+
+
+
+}
+
+
+body{
+
+
+    background-color:var(--Dark_cyan);
+    background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+    background-position: top -25rem left -14rem , bottom -31rem right -11rem;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+
+main{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* hr{
+
+    position: relative;
+    width:350px;
+
+
+    top: -3rem;
+} */
+
+
+h1{
+
+    font-size: 20px;
+
+    padding-right: 0.7rem;
+
+}
+
+h2{
+
+    font-size: 18px;
+
+}
+
+p{
+    font-size: 14px;
+   color: var(--D_grayish_blue);
+}
+
+
+span{
+
+    font-size: 22px;
+
+    color: var(--D_grayish_blue);
+}
+
+
+
+
+
+
+
+
+.card{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:white ;
+    height: 320px;
+    width: 350px;
+    border-radius: 10px;
+
+}
+
+.pfp{
+
+    top:-3rem;
+    display: block;
+    position: relative;
+    border-radius: 100%;
+    border: solid  white 0.4rem;
+}
+
+.bg-card{
+
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+
+.description{
+
+    top: -3rem;
+
+
+    position: relative;
+
+    justify-content: center;
+
+    align-items: center;
+
+    display: flex;
+
+
+}
+
+
+.city{
+
+    top: -3rem;
+    position: relative;
+}
+
+
+
+.content{
+
+    border-top: 1px solid var(--D_grayish_blue) ;
+    margin-top: 1rem;
+    width: 100%;
+    top: -4rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.followers,.likes,.photos{
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    margin: 1rem;
+
+}
+
+.followers,.likes,.photos p{
+
+    padding-bottom:10px;
+}
+
+
